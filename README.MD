@@ -1,9 +1,5 @@
 # This is an application for splitting a bill in the restaurant, cafe, etc.
 
-## Spring Boot API service.
-
-The Spring Boot REST service for working with numbers from an array.
-
 ## TASK:
 Create a application for splitting bill by photo.
 
