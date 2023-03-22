@@ -4,8 +4,8 @@ body {
   }
   
   .draggable {
-    width: 100px;
-    height: 100px;
+    width: fit-content;
+    height: fit-content;
     color: black;
     padding: 10px;
     box-sizing: border-box;
@@ -17,6 +17,8 @@ body {
     border-radius: 10px;
     cursor: move;
     user-select: none;
+    font-size : 20px;
+    display: none;
   }
 
   html {

@@ -1,38 +1,37 @@
-<html>
-    <head>
-           <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>Split Bill</title>
-            <link href="./scripts/script.js">
-            <link rel="stylesheet" href="./style/button.css">
-            <link rel="stylesheet" href="./style/style.css">
-        </head>
-    </head>
-    <body>
-        <div class="centered">
-            <div class="input-container">
-                <label class="input-file">
-                    Choose Image
-                    <input id="file-uploader" type="file">
-                </label>
-                <span class="file-name"></span>
-            </div>
-            <br>
-            <img id="ocr-img" src="#" alt="choose-image" width="auto" height="auto">
-            <br>
-            <button id="start-scan" class="disabled">Add bill</button>
-            <span id="progress"></span>
-            <div id="myProgress">
-                <div id="myBar"></div>
-            </div>
-            <div id="result"></div>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Split Bill</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/button.css">
+    <link href="./scripts/script.js">
+    <script src='https://unpkg.com/tesseract.js@4.0.2/dist/tesseract.min.js'></script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1101.0" data-gr-ext-installed="">
+    <div class="centered">
+        <div class="input-container">
+            <label class="input-file">
+                Choose Image
+                <input id="file-uploader" type="file">
+            </label>
+            <span class="file-name"></span>
         </div>
-        <div class="draggable" style="position: absolute; background: rgb(255, 0, 141); top: 135px; left: 287px;">50</div>
-        <div class="draggable" style="position: absolute; background: rgb(0, 157, 255); top: 150px; left: 528px;">100</div>
-        <div class="draggable" style="position: absolute; background: rgb(84, 0, 255); top: 170px; left: 174px;">150</div>
-        <div class="draggable" style="position: absolute; background: rgb(255, 33, 0); top: 190px; left: 412px;">200</div>
-        <script src="./scripts/script.js"></script>
-        <div id='add_message'></div><button id='add_name' onclick="myFunction()">+</button>
-    </body>
+        <br>
+        <img id="ocr-img" src="#" alt="choose-image" width="auto" height="auto">
+        <br>
+        <button id="start-scan" class="disabled">Start Scan</button>
+        <span id="progress"></span>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <div class="draggable"></div>
+    </div>
+    <div id='add_message'></div><button id='add_name' onclick="myFunction()">+</button>
+    <script src="./scripts/app.js" type="module"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true">
+</grammarly-desktop-integration>
 </html>

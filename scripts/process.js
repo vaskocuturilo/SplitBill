@@ -7,22 +7,22 @@ export class process {
         { logger: m => this.scanningProgress(m) }
       ).then((res) => res
       ).then(({ data }) => {
-        const resultDiv = document.querySelector('#result');
+        const resultDiv = document.querySelector('.draggable');
+        resultDiv.style.display = 'block'; 
         resultDiv.innerHTML = `
-          <span>Result of Scanned Image:</span>
-          <div style="background: #eeeeee; color: #393e46; padding: 10px;" contenteditable=true>
-            ${data.text}
+          <div">  
+          ${data.text.match(/\$[0-9]+/g,'')}
           </div>
         `;
       })
     }
 
     scanningProgress(m) {
-      document.querySelector('#progress').innerText = 'Initializing...'
+      document.querySelector('#progress').innerText = 'Reading...'
       if (m.status === 'recognizing text') {
         const progress = Math.round(m.progress * 100);
 
-        document.querySelector('#progress').innerText = 'Recognizing Text...'
+        document.querySelector('#progress').innerText = 'Parcing Text...'
 
         if (progress >= 100) {
           document.querySelector('#progress').innerText = '';
