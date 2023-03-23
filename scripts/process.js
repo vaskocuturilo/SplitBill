@@ -7,13 +7,16 @@ export class process {
         { logger: m => this.scanningProgress(m) }
       ).then((res) => res
       ).then(({ data }) => {
-        const resultDiv = document.querySelector('.draggable');
-        resultDiv.style.display = 'block'; 
-        resultDiv.innerHTML = `
-          <div">  
-          ${data.text.match(/\$[0-9]+/g,'')}
-          </div>
-        `;
+        
+      const resultDiv = document.querySelector('.draggable');
+      resultDiv.style.display = 'block'; 
+
+      const array = [data.text.match(/\$[(?<=^| )\d+(\.\d+)?(?=$| )]+/g,'')];
+        
+    
+      array.forEach(function(index){
+        resultDiv.innerHTML = `<div">  ${index} </div>`; 
+         })
       })
     }
 
