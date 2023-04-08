@@ -34,7 +34,7 @@ You will need the following technologies available to try it out:
 
 ### The Web site link is 
 
-https://bank-account-cypress.netlify.app/
+https://split-bill-friend.netlify.app/
 
 ### How it looks
 
