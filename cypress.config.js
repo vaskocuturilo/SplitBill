@@ -8,7 +8,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       if (config.env.master) {
         return {
-          baseUrl: "",
+          baseUrl: "https://split-bill-friend.netlify.app/",
           env: {
             env: "master"
           },

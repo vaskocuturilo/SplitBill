@@ -26,12 +26,18 @@ You will need the following technologies available to try it out:
 ## TO-DO list (ASAP):
 - Create functionality for upload bill. :heavy_check_mark:
 - Create functionality for parse bill to text. :heavy_check_mark:
-- Create functionality for screen total on the page(in the box)
+- Create functionality for screen total on the page (in the box)
 - Create functionality for add friends.
 - Create functionality for calculate total by friend.
 - Create automation scripts for testing functionality.
 
 
+### The Web site link is 
+
+https://bank-account-cypress.netlify.app/
+
 ### How it looks
 
 ![](https://i.postimg.cc/cHFB6byd/3633d2e5-0465-4926-87ec-b16aa33fa456.png)
+
+
