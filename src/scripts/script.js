@@ -66,6 +66,6 @@ document.ontouchstart = filter;
 
 
 function myFunction(){
-  document.getElementById("add_message").innerHTML = 
-  '<div class="message">Add friend<br>Name: <input type="text" id="name"> <input type="submit" id="button" value="Add friend"><br><br><br></div>';
+  document.getElementById("add-friend").innerHTML = 
+  '<div class="message" data-cy="message">Add friend<br>Name: <input type="text" id="name" data-cy="add-friend-name"> <input type="submit" id="button" value="Add friend" data-cy="add-friend"><br><br><br></div>';
   };

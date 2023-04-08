@@ -11,7 +11,9 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir ./dist"
+    "build": "parcel build src/index.html --dist-dir ./dist",
+    "cypress:run:test": "parcel src/index.html & cypress run --e2e",
+    "cypress:run:prod": "cypress run --e2e --browser chrome --env master=1"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/vaskocuturilo/SplitBill/issues"
   },
-  "homepage": "https://github.com/vaskocuturilo/SplitBill#readme"
+  "homepage": "https://github.com/vaskocuturilo/SplitBill#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
 }
