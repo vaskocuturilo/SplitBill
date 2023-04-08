@@ -31,3 +31,7 @@ You will need the following technologies available to try it out:
 - Create functionality for calculate total by friend.
 - Create automation scripts for testing functionality.
 
+
+### How it looks
+
+![](https://i.postimg.cc/cHFB6byd/3633d2e5-0465-4926-87ec-b16aa33fa456.png)

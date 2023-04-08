@@ -3,7 +3,7 @@ export class UploadSubFrom {
 
     elements = {
         uploadInput: () => cy.get('#file-uploader'),
-        draggable: () => cy.get('[data-cy="draggable-class"]', { timeout: 150000 }),
+        draggable: () => cy.get('[data-cy="draggable-class"]', { timeout: 50000 }),
         startScanButton: () => cy.get('[data-cy="start-scan-button"]')
      }
 

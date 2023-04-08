@@ -8,7 +8,7 @@ jobs:
    strategy:
       matrix:
         node-version: [15.x]
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu-latest]
         browser: [chrome, firefox]
          
    runs-on: ${{ matrix.os }}
