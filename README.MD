@@ -5,7 +5,6 @@ Create a application for splitting bill by photo.
 
 ## Requirements:
 - Use any *object-oriented language*.
-- Create docker compose for run service.
 - provide code and clear instructions how to run it.
 
 **Note**: please put your code in public repository.
@@ -16,8 +15,11 @@ You will need the following technologies available to try it out:
 
 * Git
 * JS
-* html
-* css
+* HTML
+* CSS
+* Cypress
+* Parcel
+* Github actions functionality 
 * Docker
 * IDE of your choice
 
@@ -26,4 +28,10 @@ You will need the following technologies available to try it out:
 - Create functionality for parse bill to text. 
 - Create functionality for screen total on the page(in the box)
 - Create functionality for add friends.
-- Create functionality for calculate total by friend. 
+- Create functionality for calculate total by friend.
+- Create automation scripts for testing functionality.
+
+
+### How it looks
+
+![](https://i.postimg.cc/cHFB6byd/3633d2e5-0465-4926-87ec-b16aa33fa456.png)
