@@ -1,4 +1,4 @@
-name: Cypress Tests for Split bill application.
+name: Cypress Tests for Split bill application
 on:
   pull_request:
     branches: [ main ]
