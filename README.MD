@@ -38,6 +38,6 @@ https://split-bill-friend.netlify.app/
 
 ### How it looks
 
-![](https://i.postimg.cc/cHFB6byd/3633d2e5-0465-4926-87ec-b16aa33fa456.png)
+![](https://i.postimg.cc/RCYDGh8v/ae609d60-9c13-4b3b-a238-61f403d3ec2b.png)
 
 
