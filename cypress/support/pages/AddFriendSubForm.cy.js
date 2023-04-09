@@ -15,9 +15,9 @@ export class AddFriendSubForm {
      }
 
     checkElementsOnAddFrienSubFrom() {
-     this.elements.addFriendLabel().should('be.visible').and('contain', 'Add friend');
-     this.elements.addNameInput().should('be.visible');
-     this.elements.addFriendButton().should('be.visible');    
+     this.elements.addFriendLabel().should('be.visible').and('contain', 'Add friend name:');
+     this.elements.addNameInput().should('be.visible').and('have.value', 'Name 1');
+     this.elements.addFriendButton().should('be.visible').and('have.css', 'color', 'rgb(238, 238, 238)');
     }
 }
 
