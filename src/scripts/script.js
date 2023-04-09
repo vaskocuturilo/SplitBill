@@ -67,5 +67,17 @@ document.ontouchstart = filter;
 
 function myFunction(){
   document.getElementById("add-friend").innerHTML = 
-  '<div class="message" data-cy="message">Add friend<br>Name: <input type="text" id="name" data-cy="add-friend-name"> <input type="submit" id="button" value="Add friend" data-cy="add-friend"><br><br><br></div>';
-  };
+  `
+  <div class="userwrap">
+  <div class="user">
+  <div class="namewrap"><div class="input-group">
+  <div class="message" data-cy="message">Add friend name:<br></div>
+  <span class="input-group-addon"><span class="input-icon fui-user"></span></span> <input id="nuser0" data-cy="add-friend-name" class="form-control name" type="text" name="n0" value="Name 1" onfocus="(this.value == 'Name 1') &amp;&amp; (this.value = '')" onblur="(this.value == '') &amp;&amp; (this.value = 'Name 1')"></div></div>
+  <div class="totalwrap"><i class="icon-tag"></i><span class="total">0</span><input type="hidden" name="xuser0" class="total"></div>
+    <div class="bef"></div>
+    <a href="#"><div class="pluswrap"><div class="plus" id="addScntuser0" data-cy="add-friend">&#xFF0B;<span class="normal"> more</span></div></div></a>
+  </div>
+  <div class="clearfix"></div>
+  </div>
+  `; 
+};

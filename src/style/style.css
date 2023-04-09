@@ -22,7 +22,7 @@ body {
   }
 
   html {
-    background-color: #232931;
+    background-color: #e8ecf1;
     color: #eeeeee;
 }
 
@@ -97,4 +97,233 @@ input[type="file"] {
     padding: 10px;
     color: #393e46;
     width: 70%;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+.input-group-addon {
+    background-color: #3498db;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+
+.input-group-addon {
+    background-color: #3498db;
+}
+
+.userwrap {
+	width: 100%;
+	min-width: 300px;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	background-color: #ecf0f1;
+	border: 1px #bdc3c7 solid;
+	
+/*-webkit-box-shadow: 1px 1px 4px -1px rgba(184,184,184,1);
+-moz-box-shadow: 1px 1px 4px -1px rgba(184,184,184,1);
+box-shadow: 1px 1px 4px -1px rgba(184,184,184,1);*/
+}
+.userwrap:hover {
+	border: 1px #3498db solid;
+	background-color: #F2F6F7;
+}
+
+
+
+.namewrap {
+	min-width: 198px;
+	max-width: 360px;
+	width: 66%;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.totalwrap {
+	min-width: 98px;
+	width: 33%;
+	height: 42px;
+	line-height: 42px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	
+}
+.total {
+	height: 42px;
+}
+.icon-tag {
+	height: 42px;
+	font-size: 20px;
+	line-height: 42px;
+	
+}
+.pricewrap {
+	min-width: 113px;
+	max-width: 230px;
+	width: 35%;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.waswrap {
+	min-width: 125px;
+	max-width: 230px;
+	width: 40%;
+	float: left;
+	clear: both;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.minus {
+	float: left;
+	border: none;
+	color: #ccc;
+	width: 20px;
+	font-family: WebSymbolsLigaRegular;
+	font-size: 18px;
+	text-align: center;
+	line-height: 42px;
+	height: 42px;
+}
+.checktoggle {
+	float: left;
+	border: none;
+	color: #ccc;
+	width: 30px;
+	font-family: WebSymbolsLigaRegular;
+	font-size: 18px;
+	text-align: center;
+	line-height: 42px;
+	height: 42px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#thebutton {
+	width: 300px;
+	font-size: 18px;	
+	visibility: hidden;
+}
+#loader {
+	display: none;
+	text-align: center;
+}
+.pluswrap {
+	width: 100%;
+	max-width: 500px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	clear: both;
+}
+.plus {
+	width: 100%;
+	font-family: WebSymbolsLigaRegular;
+	height: 30px;
+	background-color: #fff;
+	line-height: 30px;
+	font-size: 18px;
+	color: #bdc3c7;
+	text-align: center;
+	border: 1px #bdc3c7 solid;
+	border-radius: 0;
+}
+.plus:hover {
+	background-color: #3498db;
+	border: 1px #3498db solid;
+	color: #ffffff;
+	
+}
+.normal {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.minus:hover {
+	float: left;
+	border: none;
+	font-size: 18px;
+	color: #a60000;
+	text-align: center;
+	line-height: 42px;
+	height: 42px;
+}
+.checktoggle:hover {
+	float: left;
+	border: none;
+	font-size: 18px;
+	color: #3498db;
+	text-align: center;
+	line-height: 42px;
+	height: 42px;
+}
+.checktoggleactive {
+	float: left;
+	border: none;
+	width: 30px;
+	font-family: WebSymbolsLigaRegular;
+	font-size: 18px;
+	text-align: center;
+	line-height: 42px;
+	height: 45px;
+	margin-left: 5px;
+	background-color: #3498db;
+	color: #fff;
+	margin-right: 5px;
+	
+}
+.checktoggledone {
+	color: #f39c12;
+}
+
+
+.inputwrap {
+	clear: both;
+	margin-top: 5px;
+	float: left;
+	min-width: 300px;
+	max-width: 500px;
+	width: 100%;
+}
+.checks {
+	clear: both;
+	float: right;
+	display: none;
+	background-color: #fff;
+	padding-right: 5px;
+	margin-right: 7px;
+	min-width: 150px;
+	max-width: 500px;
+	width: 50%;
+	font-size: 12px;
+	color: #848484;
+	
+	border: 2px #3498db solid;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-top: 0px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.message {
+	color: #080000;
 }
