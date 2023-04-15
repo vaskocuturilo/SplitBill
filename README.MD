@@ -25,7 +25,9 @@ You will need the following technologies available to try it out:
 
 ## TO-DO list (ASAP):
 - Create functionality for upload bill. :heavy_check_mark:
-- Create functionality for parse bill to text. :heavy_check_mark:
+- Create functionality for parse bill to text.
+- Create functionality for dividing text bill into the items. 
+- Create functionality for take photo bill. 
 - Create functionality for screen total on the page (in the box)
 - Create functionality for add friends.
 - Create functionality for calculate total by friend.
