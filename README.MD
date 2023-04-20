@@ -24,6 +24,7 @@ You will need the following technologies available to try it out:
 * IDE of your choice
 
 ## TO-DO list (ASAP):
+- Create a new UI interface for project.
 - Create functionality for upload bill. :heavy_check_mark:
 - Create functionality for parse bill to text.
 - Create functionality for dividing text bill into the items. 
